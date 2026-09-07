@@ -1,4 +1,4 @@
-# ichornet/macrocard
+# IchorPad Left Version
 
 ![ichornet/macrocard](imgur.com image replace me!)
 
