@@ -1,6 +1,6 @@
 {
     "manufacturer": "ichor-net",
-    "keyboard_name": "IchorPad",
+    "keyboard_name": "IchorPad_R",
     "maintainer": "ichor-net",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
