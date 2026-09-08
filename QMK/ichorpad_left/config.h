@@ -2,6 +2,8 @@
 #define ENCODER_B_PINS { GP28, GP1 }
 #define ENCODER_RESOLUTIONS {4, 4}
 #define ENCODER_DEFAULT_POS 0x3
+#define RGBLIGHT_LED_COUNT = 15
+#define WS2812_DI_PIN = 5
 
 
 /*
