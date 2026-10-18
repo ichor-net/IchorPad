@@ -11,6 +11,5 @@ This is the repo for the firmware and case files for the IchorPad.
 4. Now that you're in VIA, upload the corresponding via.json file from the folder that you downloaded your uf2 in the design tab.  
 
 
-## Current features missing:  
-Lighting Control  
-OLED Control  
+## Disclaimer:
+The code for the RGB enabled version of the firmware was written by Claude, I have tested it myself and it is working.
