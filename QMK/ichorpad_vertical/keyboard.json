@@ -18,7 +18,7 @@
     "url": "https://github.com/ichor-net/IchorPad",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0003",
+        "pid": "0x0001",
         "vid": "0x4D43"
     },
     "layouts": {
