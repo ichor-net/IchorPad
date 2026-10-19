@@ -1,5 +1,6 @@
-# IchorPad Left Version
+# IchorPad RGB Version
 
+this is all auto gen stuff:  
 ![ichornet/macrocard](imgur.com image replace me!)
 
 *A short description of the keyboard/project*
