@@ -1,0 +1,66 @@
+{
+    "manufacturer": "ichor-net",
+    "keyboard_name": "IchorPad_V",
+    "maintainer": "ichor-net",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "rgb_matrix": true
+    },
+    "matrix_pins": {
+        "cols": ["GP13", "GP9", "GP2"],
+        "rows": ["GP6", "GP8", "GP7", "GP3"]
+    },
+    "processor": "RP2040",
+    "url": "https://github.com/ichor-net/IchorPad",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0001",
+        "vid": "0x4D43"
+    },
+    "ws2812": {
+        "pin": "GP27",
+        "driver": "vendor"
+    },
+    "rgb_matrix": {
+        "driver": "ws2812",
+        "layout": [
+            {"x": 0, "y": 0, "flags": 8},
+            {"x": 16, "y": 0, "flags": 8},
+            {"x": 32, "y": 0, "flags": 8},
+            {"x": 192, "y": 0, "flags": 8},
+            {"x": 208, "y": 0, "flags": 8},
+            {"x": 224, "y": 0, "flags": 8},
+            {"matrix": [0, 2], "x": 224, "y": 32, "flags": 4},
+            {"matrix": [0, 1], "x": 112, "y": 32, "flags": 4},
+            {"matrix": [0, 0], "x": 0, "y": 32, "flags": 4},
+            {"matrix": [1, 0], "x": 0, "y": 48, "flags": 4},
+            {"matrix": [1, 1], "x": 112, "y": 48, "flags": 4},
+            {"matrix": [1, 2], "x": 224, "y": 48, "flags": 4},
+            {"matrix": [2, 2], "x": 224, "y": 64, "flags": 4},
+            {"matrix": [2, 1], "x": 112, "y": 64, "flags": 4},
+            {"matrix": [2, 0], "x": 0, "y": 64, "flags": 4}
+        ]
+    },
+    "layouts": {
+        "LAYOUT_ortho_4x3": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 2},
+                {"matrix": [0, 1], "x": 0, "y": 3},
+                {"matrix": [0, 2], "x": 0, "y": 4},
+                {"matrix": [1, 0], "x": 1, "y": 2},
+                {"matrix": [1, 1], "x": 1, "y": 3},
+                {"matrix": [1, 2], "x": 1, "y": 4},
+                {"matrix": [2, 0], "x": 2, "y": 2},
+                {"matrix": [2, 1], "x": 2, "y": 3},
+                {"matrix": [2, 2], "x": 2, "y": 4},
+                {"matrix": [3, 0], "x": 0, "y": 0},
+                {"matrix": [3, 2], "x": 2, "y": 0}
+            ]
+        }
+    }
+}
